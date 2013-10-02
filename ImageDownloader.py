@@ -6,7 +6,8 @@ import time
 import urllib
 import urllib2
 import BeautifulSoup
-
+## yes I know that some of these are not being used at the moment.
+## urllib and urllib2? I guess so for now, but then again, it's not even working right now.
 
 def get_user_url():
     url_input = raw_input("What URL would you like to download files from?")
@@ -36,7 +37,7 @@ def get_pngs(source,url):
 
 
 def main(argv):
-
+    ## do we have arguments or do we have to arogue with the user?
     arg_num = len(argv)
     if arg_num > 0:
         user_url = argv[0]
