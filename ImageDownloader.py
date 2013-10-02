@@ -9,6 +9,7 @@ import BeautifulSoup
 ## yes I know that some of these are not being used at the moment.
 ## urllib and urllib2? I guess so for now, but then again, it's not even working right now.
 
+
 def get_user_url():
     url_input = raw_input("What URL would you like to download files from?")
     return url_input
