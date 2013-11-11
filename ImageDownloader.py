@@ -38,7 +38,7 @@ def get_pngs(source,url):
 
 
 def main(argv):
-    ## do we have arguments or do we have to arogue with the user?
+    ## do we have arguments or do we have to arg...ue with the user?
     arg_num = len(argv)
     if arg_num > 0:
         user_url = argv[0]
